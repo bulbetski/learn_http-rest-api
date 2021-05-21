@@ -1,3 +1,7 @@
+.PHONY: fmt
+fmt:
+	go fmt ./...
+
 .PHONY: build
 build:
 	go build -v ./cmd/apiserver
